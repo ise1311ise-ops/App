@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Qibla Compass</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="main.js"></script>
+</head>
+<body id="qibla">
+  <div class="overlay"></div>
+  <div class="container centered">
+    <div class="top-bar" style="width:100%">
+      <a href="index.html">← Back</a>
+      <h2>Qibla Direction</h2>
+      <div></div>
+    </div>
+    <div id="qibla-location">Locating…</div>
+    <div class="compass-container">
+      <div class="compass-dial" id="compass-dial">
+        <div class="compass-arrow" id="compass-arrow"></div>
+        <div class="compass-labels">
+          <span class="north">N</span>
+          <span class="east">E</span>
+          <span class="south">S</span>
+          <span class="west">W</span>
+        </div>
+      </div>
+    </div>
+    <div id="qibla-info" class="subtitle"></div>
+    <div class="footer">Compass requires motion permission on iOS</div>
+  </div>
+</body>
+</html>
